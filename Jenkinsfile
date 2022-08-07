@@ -5,7 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                sh "docker build -t sridjnath09/project ."
-               echo "testing"
               
             }
         }
